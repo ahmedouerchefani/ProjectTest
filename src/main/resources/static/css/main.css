@@ -1,0 +1,47 @@
+body {
+    padding-top: 5rem;
+}
+
+.starter-template {
+    text-align: center;
+}
+
+.random-color {
+    margin-left: 12%;
+}
+.imgContainer{
+    float:left;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    height: 271px;
+    width: 186px;
+}
+.linkText{
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+.backlinkText{
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1 {
+    color: #0000FF;
+}
+
+h2 {
+    color: #FF0000;
+}
